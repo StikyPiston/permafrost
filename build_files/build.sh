@@ -23,4 +23,4 @@ dnf5 install -y slick-greeter lightdm-settings lightdm
 #### Example for enabling a System Unit File
 
 systemctl enable podman.socket
-systemctl enable gdm
+systemctl enable lightdm
