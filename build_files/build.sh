@@ -11,7 +11,7 @@ set -ouex pipefail
 
 # this installs a package from fedora repos
 dnf5 install -y tmux git micro kitty hyprcursor hyprland hyprlang hyprutils xdg-desktop-portal-hyprland feh waybar wofi
-dnf5 install gdm
+dnf5 install -y gdm
 
 # Use a COPR Example:
 #
