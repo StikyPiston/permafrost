@@ -10,7 +10,7 @@ set -ouex pipefail
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
-dnf5 install -y tmux git micro kitty hyprland hyprpaper hyprcursor hyprutils hyprgraphics xdg-desktop-portal-hyprland
+dnf5 install -y tmux git micro kitty hyprcursor hyprland hyprlang hyprlock hyprpaper hyprpicker hyprutils xdg-desktop-portal-hyprland feh waybar wofi
 dnf5 install gdm3
 
 # Use a COPR Example:
